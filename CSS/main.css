@@ -1,0 +1,59 @@
+*,
+:before,
+:after {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(204, 112, 112);
+}
+@media screen and (min-width: 650px) {
+  body {
+    background-color: rgb(114, 129, 195);
+  }
+}
+@media screen and (min-width: 1260px) {
+  body {
+    background-color: rgb(138, 204, 112);
+  }
+}
+
+.clicked {
+  color: red;
+  font-size: 1.25rem;
+}
+
+.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MoneyShotImg {
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-icon {
+  height: 2.5rem;
+}
+
+.title-heading {
+  font-size: 5rem;
+  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
